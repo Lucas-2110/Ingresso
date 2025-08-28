@@ -40,6 +40,6 @@ function comprarInferior(qtd) {
     } else {
         qtdInferior = qtdInferior - qtd;
         document.getElementById('qtd-inferior').textContent = qtdInferior
-        alert('Compra realizada com sucesso');
+        alert('Compra realizada');
     }
 }
